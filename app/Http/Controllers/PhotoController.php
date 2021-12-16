@@ -129,7 +129,7 @@ if($request->hasFile("thumbnail")){
     //     'description' => $request->description,
     //     'image' => $imgName,
     //     'album_id' => $request->album_id
-    ]);
+    // ]);
 
 }
         
