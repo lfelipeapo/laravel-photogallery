@@ -115,6 +115,7 @@ class PhotoController extends Controller
 $imgName = \photon_image_process($request,"thumbnail");
 
 if($request->hasFile("thumbnail")){
+    $service = update;
     $service->update([
         'title' => $request->title,
         'slug' => str_slug($request->title),
