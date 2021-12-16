@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Photo;
+use App\Service;
 use App\Album;
 use Illuminate\Http\Request;
 
