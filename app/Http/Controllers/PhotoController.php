@@ -122,13 +122,13 @@ if($request->hasFile("thumbnail")){
     ]);
 
 }else{
-    $service->update([
-        'title' => $request->title,
-        'slug' => str_slug($request->title),
-        'price' => $request->price,
-        'description' => $request->description,
-        'image' => $imgName,
-        'album_id' => $request->album_id
+    // $service->update([
+    //     'title' => $request->title,
+    //     'slug' => str_slug($request->title),
+    //     'price' => $request->price,
+    //     'description' => $request->description,
+    //     'image' => $imgName,
+    //     'album_id' => $request->album_id
     ]);
 
 }
